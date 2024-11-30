@@ -1,0 +1,76 @@
+.settingsList {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: black;
+}
+.highLight {
+  width: 97%;
+  height: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  margin: 5px 0px 5px 2px;
+  border-radius: 3px;
+}
+.notHighLight {
+  width: 97%;
+  height: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin: 5px 0px 5px 2px;
+  border-radius: 3px;
+}
+/* .settingsList p {
+  margin: 0px 0px 0px 0px;
+} */
+.colorTextGreen {
+  margin: 0px 0px 0px 5px;
+  color: #cddecb;
+  font-family: "Nunito", sans-serif;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+  font-size: 13px;
+}
+.colorTextSpaceGrey {
+  margin: 0px 0px 0px 5px;
+  color: #dee0df;
+  font-family: "Nunito", sans-serif;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+  font-size: 13px;
+}
+.colorTextRoseGold {
+  margin: 0px 0px 0px 5px;
+  color: #fcd9d3;
+  font-family: "Nunito", sans-serif;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+  font-size: 13px;
+}
+.colorTextSkyBlue {
+  margin: 0px 0px 0px 5px;
+  color: #cad9e5;
+  font-family: "Nunito", sans-serif;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+  font-size: 13px;
+}
+.menuHeading {
+  margin: 0px 0px 0px 5px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+  font-size: 25px;
+}

@@ -1,0 +1,32 @@
+.color1 {
+  height: 570px;
+  width: 320px;
+  box-shadow: rgb(85, 85, 85) 0px 0px 2.4em inset;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(250, 250, 250, 0.3)));
+  border-radius: 30px;
+  background: linear-gradient(rgb(227, 227, 227) 0%, rgb(214, 214, 214) 100%);
+}
+.color2 {
+  height: 570px;
+  width: 320px;
+  box-shadow: rgb(85, 85, 85) 0px 0px 2.4em inset;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(250, 250, 250, 0.3)));
+  border-radius: 30px;
+  background: #eec6be;
+}
+.color3 {
+  height: 570px;
+  width: 320px;
+  box-shadow: rgb(85, 85, 85) 0px 0px 2.4em inset;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(250, 250, 250, 0.3)));
+  border-radius: 30px;
+  background: #d5e6d1;
+}
+.color4 {
+  height: 570px;
+  width: 320px;
+  box-shadow: rgb(85, 85, 85) 0px 0px 2.4em inset;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(250, 250, 250, 0.3)));
+  border-radius: 30px;
+  background: #c9d8e4;
+}

@@ -1,0 +1,83 @@
+.menuBtnDiv {
+  position: absolute;
+  top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  /* border: 1px solid black; */
+}
+
+.frwdBtnDiv {
+  position: absolute;
+  right: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  /* border: 1px solid black; */
+}
+.bckwrdBtnDiv {
+  position: absolute;
+  left: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  /* border: 1px solid black; */
+}
+.playPause {
+  position: absolute;
+  bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 25px;
+  /* border: 1px solid black; */
+}
+.playPause:hover {
+  cursor: pointer;
+}
+.btnIcon {
+  color: gray;
+  font-size: 19px;
+  font-family: "Nunito", sans-serif;
+}
+.menuBtn {
+  color: gray;
+  font-size: 13px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 650;
+}
+.menuBtn:hover {
+  cursor: pointer;
+}
+.selectBtn {
+  width: 40%;
+  height: 40%;
+  background: linear-gradient(rgb(227, 227, 227) 0%, rgb(214, 214, 214) 100%);
+  border: 1px solid rgb(185, 185, 185);
+
+  border-radius: 50%;
+}

@@ -1,0 +1,109 @@
+.playScreenContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 20;
+}
+.songAttrDiv {
+  margin: 15% 0px 0px 0px;
+  width: 90%;
+  height: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.coverDiv {
+  width: 49%;
+  height: 90%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+.artImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.songNameDiv {
+  width: 49%;
+  height: 90%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.songNameDiv p {
+  /* margin: 0px 0px 0px 20px; */
+}
+
+.songName {
+  color: black;
+  font-family: "Nunito", sans-serif;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+  font-size: 20px;
+  margin: 5px 0px 5px 20px;
+}
+.artistName {
+  color: slategray;
+  font-family: "Nunito", sans-serif;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+  font-size: 12px;
+  margin: 5px 0px 5px 20px;
+}
+
+.barContainer {
+  position: relative;
+  width: 90%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.bar {
+  width: 90%;
+  height: 8px;
+  /* border: 1px solid gray; */
+  background-color: rgb(194, 193, 193);
+}
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: skyblue;
+  background: linear-gradient(
+    0deg,
+    rgba(60, 215, 227, 1) 0%,
+    rgba(70, 95, 252, 1) 53%
+  );
+}
+.timeDiv {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid gray; */
+  margin: 2px 0px 0px 0px;
+}
+span {
+  color: black;
+  font-family: "Nunito", sans-serif;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+  font-size: 10px;
+  /* margin: 2px 8px 0px 8px; */
+}
